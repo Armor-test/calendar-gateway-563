@@ -1,0 +1,36 @@
+# CODEOWNERS file for calendar-gateway-563
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-cloud @Armor-test/squad-apps @Armor-test/squad-ux
+
+# Directory ownership
+/styles/ @Armor-test/grp-storage @Armor-test/squad-api @Armor-test/grp-integration
+/shared/ @Armor-test/team-governance @Armor-test/squad-ux
+/ui/ @Armor-test/unit-cloud @Armor-test/squad-cloud
+/assets/ @Armor-test/dept-reporting @Armor-test/grp-ui
+/views/ @Armor-test/grp-ui @Armor-test/team-frontend @Armor-test/dept-logging
+/src/ @Armor-test/squad-search @Armor-test/grp-api
+/core/ @Armor-test/team-security @Armor-test/squad-database @Armor-test/unit-governance
+/scripts/ @Armor-test/grp-payments @Armor-test/team-research @Armor-test/dept-identity
+/pages/ @Armor-test/squad-reporting @Armor-test/grp-search
+/auth/ @Armor-test/grp-reporting @Armor-test/unit-governance
+/components/ @Armor-test/dept-reliability @Armor-test/grp-ui
+/config/ @Armor-test/squad-reporting @Armor-test/dept-reliability @Armor-test/dept-identity
+/middleware/ @Armor-test/team-core @Armor-test/team-logging
+/app/ @Armor-test/squad-ux @Armor-test/team-frontend
+
+# File type ownership
+*.sh @Armor-test/dept-test @Armor-test/dept-release @Armor-test/squad-frontend
+*.properties @Armor-test/squad-cloud @Armor-test/dept-logging
+*.rs @Armor-test/dept-data @Armor-test/grp-storage @Armor-test/squad-performance
+*.lock @Armor-test/dept-identity @Armor-test/unit-governance @Armor-test/team-security
+*.json @Armor-test/squad-ux @Armor-test/squad-frontend
+*.rb @Armor-test/squad-payments @Armor-test/squad-product @Armor-test/squad-cloud
+*.scala @Armor-test/squad-payments @Armor-test/unit-governance
+*.php @Armor-test/grp-ui @Armor-test/squad-cache @Armor-test/squad-research
+*.gradle @Armor-test/dept-reliability @Armor-test/squad-database
+*.ts @Armor-test/unit-design @Armor-test/dept-billing @Armor-test/squad-reporting
+
+# Security and special files
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
